@@ -19,7 +19,7 @@ function Layout() {
     return (
         <>
             <div className="flex w-screen h-min bg-[#06071B] justify-center">
-                <div className="relative h-min w-full max-w-[1200px]">
+                <div className="flex flex-col h-min w-full max-w-[1280px] min-w-[360px]">
                     <Header />
 
                     <About />

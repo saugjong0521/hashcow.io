@@ -1,55 +1,55 @@
 import { header_bg, hashcow_logo } from '@/assets'
-import { About } from '../main';
+import { About, Nav, MobileNavModal } from '@/components';
+import { useMobileBreakpoint } from '@/hooks';
+import { useState } from 'react';
 
 const Header = () => {
 
+    const device = useMobileBreakpoint();
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
     return (
-        <div className="flex min-h-[10vh] bg-header-bg justify-between items-center px-[50px]">
-            <div className="">
-                <img src={hashcow_logo} />
+        <>
+
+            <div className={`flex min-h-[90px] bg-header-bg justify-between items-center ${device === "mobile" ? "px-[30px]" : "px-[50px]"}`}>
+
+                {/* 로고 */}
+                <div className="flex w-[10vw] h-full">
+                    {(device === 'other' || device === "tablet" ) &&
+                        <img src={hashcow_logo} className='object-contain w-min h-min' />
+                    }
+                    {(device === 'mobile') &&
+                        <div className="flex">
+                            <p className='mobile-header-blue'>HASH</p><p className='mobile-header-white'>COW</p>
+                        </div>
+                    }
+                </div>
+
+                {/* 네비게이터, 햄버거메뉴 */}
+                {(device === 'mobile' || device === "tablet") &&
+                    <div className="flex">
+                        <div
+                            className="w-8 h-6 flex flex-col justify-between cursor-pointer group"
+                            onClick={() => setIsMobileMenuOpen(true)} // ✅ 여기에 추가
+                        >
+                            <span className="block h-[3px] bg-white rounded transition-all duration-300 group-hover:translate-y-[11px] group-hover:rotate-45"></span>
+                            <span className="block h-[3px] bg-white rounded transition-all duration-300 group-hover:opacity-0"></span>
+                            <span className="block h-[3px] bg-white rounded transition-all duration-300 group-hover:-translate-y-[11px] group-hover:-rotate-45"></span>
+                        </div>
+                    </div>
+                }
+                {(device === 'other') &&
+                    <div className="flex w-4/5 justify-between items-center">
+                        <Nav />
+                    </div>
+                }
             </div>
-            <div className="flex w-4/5 justify-between items-center">
-                <nav className='flex w-full'>
-                    <ul className='flex w-full justify-between'>
-                        <li>
-                            <a href="#about" className='cursor-pointer'>
-                                <p>ABOUT</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#hashcowproject" className='cursor-pointer'>
-                                <p>HASHCOW PROJECT</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#tokenomics" className='cursor-pointer'>
-                                <p>TOKENOMICS</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#roadmap" className='cursor-pointer'>
-                                <p>ROADMAP</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#community" className='cursor-pointer'>
-                                <p>COMMUNITY</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#whitepaper" className='cursor-pointer'>
-                                <p>WHITE PAPER</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contactus" className='cursor-pointer'>
-                                <p>CONTACT US</p>
-                            </a> 
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+
+            <MobileNavModal
+                isOpen={isMobileMenuOpen}
+                onClose={() => setIsMobileMenuOpen(false)}
+            />
+        </>
     )
 }
 

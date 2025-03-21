@@ -1,23 +1,103 @@
 @layer components {
+
+    .tablet-header-white {
+        @apply text-[#fdfdfd] text-base font-medium tracking-tight;
+    }
+
+    .tablet-main-blue {
+        @apply text-[#0adabb] text-2xl font-bold;
+    }
+
+    .tablet-main-white {
+        @apply text-[#fdfdfd] text-2xl font-bold;
+    }
+
+    .tablet-content-gray {
+        @apply text-[#d3d2d6] text-base font-medium font-libre;
+    }
+
+    .tablet-logo-blue {
+        @apply text-[#0adabb] text-5xl font-medium font-fira;
+    }
+
+    .tablet-logo-white {
+        @apply text-[#fdfdfd] text-5xl font-medium font-fira;
+    }
+
+    .tablet-section-blue {
+        @apply text-[#0adabb] text-5xl font-bold;
+    }
+
+    .tablet-section-white {
+        @apply text-[#fdfdfd] text-5xl font-bold;
+    }
+
+    .tablet-footer-white {
+        @apply text-[#fdfdfd] text-xl font-bold;
+    }
+
+    /*tablet*/
+    .text-header-white {
+        @apply text-[#fdfdfd] text-base font-medium tracking-tight;
+    }
+
     .text-main-blue {
-      @apply text-[#0adabb] text-3xl font-bold;
+        @apply text-[#0adabb] text-3xl font-bold;
     }
-  
+
     .text-main-white {
-      @apply text-[#fdfdfd] text-3xl font-bold;
+        @apply text-[#fdfdfd] text-3xl font-bold;
     }
-  
+
     .text-content-gray {
-      @apply text-[#b8b8be] text-lg font-medium;
+        @apply text-[#d3d2d6] text-xl font-medium font-libre;
     }
 
     .text-logo-blue {
+        @apply text-[#0adabb] text-7xl font-medium font-fira;
+    }
+
+    .text-logo-white {
+        @apply text-[#fdfdfd] text-7xl font-medium font-fira;
+    }
+
+    .text-section-blue {
         @apply text-[#0adabb] text-5xl font-bold;
-      }
-    
-      .text-logo-white {
+    }
+
+    .text-section-white {
         @apply text-[#fdfdfd] text-5xl font-bold;
-      }
-    
-  }
-  
+    }
+
+    .text-footer-white {
+        @apply text-[#fdfdfd] text-xl font-bold;
+    }
+
+
+    /*mobile*/
+    .mobile-header-blue {
+        @apply text-[#0adabb] text-2xl font-medium;
+    }
+    .mobile-header-white {
+        @apply text-[#fdfdfd] text-2xl font-medium;
+    }
+    .mobile-main-black {
+        @apply text-[#000000] text-3xl font-medium;
+    }
+    .mobile-section-blue {
+        @apply text-[#0adabb] text-2xl font-bold;
+    }
+    .mobile-section-white2{
+        @apply text-[#fdfdfd] text-xl font-bold;
+    }
+    .mobile-section-white {
+        @apply text-[#fdfdfd] text-3xl font-bold;
+    }
+    .mobile-button-white {
+        @apply text-[#ffffff] text-xl font-medium;
+    }
+    .mobile-footer-white {
+        @apply text-[#fdfdfd] text-xs font-medium;
+    }
+
+}

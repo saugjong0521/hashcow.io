@@ -1,5 +1,7 @@
 import {
     Header,
+    Nav,
+    MobileNavModal,
 } from './header'
 
 import {
@@ -19,6 +21,8 @@ import {
 export{
     //header
     Header,
+    Nav,
+    MobileNavModal,
 
     //main
     About,
