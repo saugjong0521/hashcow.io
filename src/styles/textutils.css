@@ -81,8 +81,11 @@
     .mobile-header-white {
         @apply text-[#fdfdfd] text-2xl font-medium;
     }
-    .mobile-main-black {
-        @apply text-[#000000] text-3xl font-medium;
+    .mobile-main-blue {
+        @apply text-[#0adabb] text-3xl font-medium;
+    }
+    .mobile-main-gray {
+        @apply text-[#444444] text-3xl font-medium;
     }
     .mobile-section-blue {
         @apply text-[#0adabb] text-2xl font-bold;

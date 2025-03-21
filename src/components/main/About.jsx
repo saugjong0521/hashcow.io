@@ -20,8 +20,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="flex">
-                                <p className="mobile-main-black">HASH</p>
-                                <p className="mobile-main-black">COW</p>
+                                <p className="mobile-main-blue">HASH</p>
+                                <p className="mobile-main-gray">COW</p>
                             </div>
                             <div className="flex">
                                 <p className="text-black px-[20px]">
@@ -39,8 +39,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="flex flex-col">
-                                <p className="mobile-main-black">Transparent & Fair Randomness,</p>
-                                <p className="mobile-main-black">Empowered by Blockchain Trust.</p>
+                                <p className="mobile-main-gray">Transparent & Fair Randomness,</p>
+                                <p className="mobile-main-gray">Empowered by Blockchain Trust.</p>
                             </div>
                             <div className="flex">
                                 <p className="text-black px-[20px]">Fairplay, proven by blockchain, the future of gaming RNG, gaming infrastructure transformed with blockchain. Beginning of fair and transparent gaming.</p>

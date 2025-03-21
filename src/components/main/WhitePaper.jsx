@@ -7,7 +7,7 @@ const WhitePaper = () => {
     const device = useMobileBreakpoint();
 
     return (
-        <section id="whitepaper" className={`w-auto ${(device === "mobile" || device === "tablet") ? "min-h-[60vh]" : "min-h-[80vh]"} flex flex-col justify-center items-center`}>
+        <section id="whitepaper" className={`w-auto ${(device === "mobile" || device === "tablet") ? "min-h-[50vh]" : "min-h-[80vh]"} flex flex-col justify-center items-center`}>
             {(device === "mobile" || device === "tablet") ?
 
                 <div className="flex flex-col justify-center items-center gap-[30px]">
