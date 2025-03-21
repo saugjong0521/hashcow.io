@@ -1,0 +1,23 @@
+@layer components {
+    .text-main-blue {
+      @apply text-[#0adabb] text-3xl font-bold;
+    }
+  
+    .text-main-white {
+      @apply text-[#fdfdfd] text-3xl font-bold;
+    }
+  
+    .text-content-gray {
+      @apply text-[#b8b8be] text-lg font-medium;
+    }
+
+    .text-logo-blue {
+        @apply text-[#0adabb] text-5xl font-bold;
+      }
+    
+      .text-logo-white {
+        @apply text-[#fdfdfd] text-5xl font-bold;
+      }
+    
+  }
+  

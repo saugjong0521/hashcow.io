@@ -6,7 +6,7 @@ import hashcowproject_chart from './hashcowproject_chart.jpg';
 import header_bg from './header_bg.jpg';
 import hashcow_logo from './hashcow_logo.png';
 import roadmap_chart from './roadmap_chart.png';
-import tockenomics_chart from './tokenomics_chart.jpg'
+import tokenomics_chart from './tokenomics_chart.jpg'
 
 
 export{
@@ -18,5 +18,5 @@ export{
     hashcow_logo,
     whitepaper_logo,
     roadmap_chart,
-    tockenomics_chart,
+    tokenomics_chart,
 };

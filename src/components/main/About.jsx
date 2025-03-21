@@ -4,42 +4,45 @@ import { about_bg, hashcow_logo, about_symbol_1, about_symbol_2 } from "@/assets
 
 const About = () => {
     return (
-        <div className="flex flex-col w-full h-full">
+        <section id="about" className="flex flex-col w-full items-center justify-center">
 
-            <div className="flex h-1/2 justify-center items-center">
-                <div className="flex flex-col items-center justify-center">
-                    <div className="flex flex-col">
-                        <p className="">Transparent and Fair Randomness,</p>
-                        <p className="">Empowered by Blockchain Trust.</p>
+            <div className="flex w-full h-full justify-center items-center bg-about-bg bg-cover bg-no-repeat bg-right">
+                <div className="flex mx-[50px] w-full items-center">
+                    <div className="flex w-3/5 flex-col justify-between gap-[10px] text-left">
+                        <div className="flex flex-col gap-[10px]">
+                            <p className="text-main-white">Transparent and Fair Randomness,</p>
+                            <div className="flex">
+                                <p className="text-main-white">Empowered by&nbsp;</p>
+                                <p className="text-main-blue">Blockchain Trust.</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="text-content-gray">Fairplay, proven by blockchain, the future of gaming RNG,</p>
+                            <p className="text-content-gray">gaming infrastructure transformed with blockchain.</p>
+                            <p className="text-content-gray">Beginning of fair and transparent gaming</p>
+                        </div>
                     </div>
-                    <div className="flex flex-col ">
-                        <p className="">Fairplay, proven by blockchain, the future of gaming RNG,</p>
-                        <p className="">gaming infrastructure transformed with blockchain.</p>
-                        <p className="">Beginning of fair and transparent gaming</p>
-                    </div>
-                </div>
-                <div className="flex">
-                    <div className="">
-                        <img src={about_symbol_1}/>
+                    <div className="flex w-2/5">
+                        <div className="flex w-full py-[50px]">
+                            <img src={about_symbol_1} className="w-full h-auto object-contain" />
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-            <div className="flex h-1/2">
-                <div className="flex">
-                    <div className="flex">
-                        <div className="">
-                            <img src={about_symbol_2}/>
-                        </div>
+            <div className="flex w-full h-full">
+                <div className="flex mx-[50px] w-full items-center">
+                    <div className="flex py-[50px] w-2/5">
+                        <img src={about_symbol_2} className="w-full h-auto object-contain"/>
                     </div>
-                    <div className="flex flex-col">
-                        <div className="flex">
-                            <img src={hashcow_logo}/>
-                            <p>HASH</p>
-                            <p>COW</p>
+                    <div className="flex flex-col w-3/5 gap-[20px]">
+                        <div className="flex w-full h-[50px] justify-end">
+                            <img src={hashcow_logo} className="pr-[10px] object-contain"/>
+                            <p className="text-logo-blue">HASH</p>
+                            <p className="text-logo-white">COW</p>
                         </div>
-                        <p className="">
+                        <p className="text-left text-content-gray">
                             HashCow project is designed to build a fair and transparent blockchain gaming ecosystem by leveraging blockchain technology's RNG and VRF technologies.
                             The blockchain gaming platform is structured around the ecosystem utility cryptocurrency HashCow (HCOW), which plays a variety of roles within the VegasLedger blockchain platform.
                         </p>
@@ -47,7 +50,7 @@ const About = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
 
     )
 }
