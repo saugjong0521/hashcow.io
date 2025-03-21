@@ -7,7 +7,7 @@ const Nav = () => {
 
     return (
         <nav className='flex w-full'>
-            <ul className={`flex w-full h-full justify-between text-header-white ${device === "mobile" || device === "tablet" ? "flex-col" : ""}`}>
+            <ul className={`flex w-full h-full justify-between ${device === "mobile" && "flex-col text-header-white" || device === "tablet" && "flex-col tablet-header-modal" || "text-header-white"}`}>
                 <li>
                     <a href="#about" className='cursor-pointer'>
                         <p>ABOUT</p>

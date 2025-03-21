@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <>
 
-            <div className={`flex min-h-[90px] bg-header-bg justify-between items-center ${device === "mobile" ? "px-[30px]" : "px-[50px]"}`}>
+            <div className={`flex min-h-[90px] bg-header-bg justify-between items-center ${(device === "mobile") ? "px-[30px]" : "px-[50px]"}`}>
 
                 {/* 로고 */}
                 <div className="flex w-[10vw] h-full">
