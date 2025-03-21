@@ -5,9 +5,9 @@ function Layout() {
 
     return (
         <>
-            <div className="flex w-screen h-screen bg-[#222222] justify-center">
-                <div className="flex h-screen w-4/5 bg-[#000000]">
-                    <About/>
+            <div className="flex w-screen h-screen bg-[#06071B] justify-center">
+                <div className="relative h-full w-full max-w-[1400px] bg-[#000000]">
+                    <About />
                 </div>
             </div>
         </>
