@@ -3,7 +3,7 @@ const NavTablet = () => {
       <nav className="flex w-full">
         <ul className="flex flex-col tablet-header-modal w-full h-full justify-between">
           {navItems.map((item) => (
-            <li key={item.href}>
+            <li key={item.href} className="li-btn-hover-effect">
               <a href={item.href} className="cursor-pointer">
                 <p>{item.label}</p>
               </a>
@@ -21,6 +21,7 @@ const NavTablet = () => {
     { href: "#whitepaper", label: "WHITE PAPER" },
     { href: "#roadmap", label: "ROADMAP" },
     { href: "#community", label: "COMMUNITY" },
+    { href: "#partners", label: "PARTNERS" },
     { href: "#contactus", label: "CONTACT US" },
   ];
   

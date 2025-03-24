@@ -4,6 +4,7 @@ import Tokenomics from './Tokenomics/Tokenomics.index';
 import WhitePaper from './WhitePaper/WhitePaper.index';
 import Roadmap from './Roadmap/Roadmap.index';
 import Community from './Community/Community.index';
+import Partners from './Partners/Partners.index';
 import ContactUs from './ContactUs/ContactUs.index';
 
 export {
@@ -13,5 +14,6 @@ export {
     WhitePaper,
     Roadmap,
     Community,
+    Partners,
     ContactUs,
 }

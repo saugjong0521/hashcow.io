@@ -7,6 +7,7 @@ import {
     WhitePaper, 
     Roadmap,
     Community,
+    Partners,
     ContactUs,
 
     Footer,
@@ -28,6 +29,7 @@ function Layout() {
                     <WhitePaper />
                     <Roadmap />
                     <Community />
+                    <Partners />
                     <ContactUs />
 
                     <Footer/>

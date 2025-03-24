@@ -11,6 +11,7 @@ import {
     WhitePaper,
     Roadmap,
     Community,
+    Partners,
     ContactUs,
 } from './main'
 
@@ -31,6 +32,7 @@ export{
     WhitePaper,
     Roadmap,
     Community,
+    Partners,
     ContactUs,
 
     //footer

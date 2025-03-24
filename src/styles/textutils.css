@@ -1,7 +1,7 @@
 @layer components {
 
 
-
+    /*desktop & normal*/
     .text-header-white {
         @apply text-[#fdfdfd] text-base font-medium tracking-tight;
     }
