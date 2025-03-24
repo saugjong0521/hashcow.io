@@ -5,7 +5,7 @@ const CommunityDesktop = () => {
     return (
         <section
             id="community"
-            className="w-auto min-h-[50vh] flex flex-col justify-center items-center"
+            className="w-auto min-h-[50vh] flex flex-col justify-center items-center py-[40px]"
         >
             <div className="flex flex-col gap-[70px]">
                 <div>

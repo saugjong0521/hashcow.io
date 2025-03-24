@@ -13,7 +13,7 @@ const WhitePaperTablet = () => {
                     <img src={whitepaper_logo} alt="White Paper" />
                 </div>
                 <a href={PATH.WHITEPAPER} target='_blank'>
-                    <button className="w-[150px] h-[40px] rounded-full bg-[#27c767]">
+                    <button className="w-[150px] h-[40px] rounded-full bg-[#27c767] whitepaper-hover-effect">
                         <p className="mobile-button-white">Link</p>
                     </button>
                 </a>

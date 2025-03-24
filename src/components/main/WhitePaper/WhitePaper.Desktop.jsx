@@ -11,7 +11,7 @@ const WhitePaperDesktop = () => {
                 <p className="text-section-blue">White Paper</p>
                 <img src={whitepaper_logo} alt="White Paper" />
                 <a href={PATH.WHITEPAPER} target='_blank'>
-                    <button className="w-[300px] h-[60px] rounded-full bg-[#27c767]">
+                    <button className="w-[300px] h-[60px] rounded-full bg-[#27c767] whitepaper-hover-effect">
                         <p className="text-main-white">Link</p>
                     </button>
                 </a>

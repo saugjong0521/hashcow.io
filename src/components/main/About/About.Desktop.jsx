@@ -2,7 +2,7 @@ import { about_symbol_1, about_symbol_2, hashcow_logo } from '@/assets';
 
 const AboutDesktop = () => {
   return (
-    <section id="about" className="flex flex-col w-full items-center justify-center">
+    <section id="about" className="flex flex-col w-full items-center justify-center pb-[40px]">
       <div className="flex w-full h-full justify-center items-center bg-about-bg bg-cover bg-no-repeat bg-right">
         <div className="flex mx-[50px] w-full items-center">
           <div className="flex w-3/5 flex-col justify-between gap-[15px] text-left">

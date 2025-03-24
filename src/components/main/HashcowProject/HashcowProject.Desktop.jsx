@@ -4,7 +4,7 @@ const HashcowProjectDesktop = () => {
   return (
     <section
       id="hashcowproject"
-      className="w-auto min-h-[100vh] flex flex-col justify-center items-center"
+      className="w-auto min-h-[100vh] flex flex-col justify-center items-center py-[40px]"
     >
       <div className="flex flex-col gap-[10vh]">
         <p className="text-section-blue">Ecosystem Business Model</p>

@@ -4,7 +4,7 @@
 }
 
 .li-btn-hover-effect:hover {
-    transform: scale(1.0.5);
+    transform: scale(1.1);
     color: #d8fbff;
     font-weight: bold;
 }
@@ -19,4 +19,23 @@
     border-color: #66f2b9;
     transform: scale(1.05);
     box-shadow: 0 0 10px #66f2b9;
+}
+
+.whitepaper-hover-effect {
+    transition: all 0.2s ease;
+}
+
+.whitepaper-hover-effect:hover {
+    border-color: #74dfb4;
+    background-color: #30d451;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #7ee5bc;
+}
+
+.partners-hover-effect {
+    transition: all 0.2s ease;
+}
+
+.partners-hover-effect:hover {
+    transform: scale(1.05);
 }
