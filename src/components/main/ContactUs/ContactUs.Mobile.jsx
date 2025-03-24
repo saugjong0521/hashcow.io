@@ -1,6 +1,6 @@
 const ContactUsMobile = () => {
     return (
-      <section id="contactus" className="w-auto min-h-[40vh] flex flex-col justify-center items-center">
+      <section id="contactus" className="w-auto min-h-[40vh] flex flex-col justify-center items-center py-[20px]">
         <div className="flex flex-col gap-[20px] justify-center items-center">
           <div className="flex">
             <p className="mobile-section-blue">Contact us</p>

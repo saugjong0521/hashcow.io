@@ -2,7 +2,7 @@ import { hashcow_logo, about_symbol_1, about_symbol_2 } from '@/assets';
 
 const AboutMobile = () => {
   return (
-    <section id="about" className="flex flex-col w-full items-center justify-center">
+    <section id="about" className="flex flex-col w-full items-center justify-center py-[20px]">
       <div className="flex flex-col gap-[10vh] my-[5vh]">
 
         {/* 카드 1 */}

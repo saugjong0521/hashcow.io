@@ -26,6 +26,14 @@
     .text-section-white {
         @apply text-[#fdfdfd] text-5xl font-bold;
     }
+    .text-community-blue {
+        @apply text-[#0adabb] text-3xl font-bold;
+    }
+    .text-community-white {
+        @apply text-[#fdfdfd] text-3xl font-bold;
+    }
+
+
 
     .text-footer-white {
         @apply text-[#fdfdfd] text-xl font-bold;
@@ -62,6 +70,9 @@
     .tablet-footer-white {
         @apply text-[#fdfdfd] text-xl font-bold;
     }
+    .tablet-community-gray {
+        @apply text-[#777777] text-2xl font-bold;
+    }
 
 
     /*mobile*/
@@ -91,6 +102,9 @@
     }
     .mobile-footer-white {
         @apply text-[#fdfdfd] text-xs font-medium;
+    }
+    .mobile-community-gray {
+        @apply text-[#777777] text-sm font-medium;
     }
 
 }

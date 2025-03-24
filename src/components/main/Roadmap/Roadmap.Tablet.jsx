@@ -4,7 +4,7 @@ const RoadmapTablet = () => {
   return (
     <section
       id="roadmap"
-      className="w-auto min-h-[90vh] flex flex-col justify-center items-center"
+      className="w-auto min-h-[90vh] flex flex-col justify-center items-center py-[30px]"
     >
       <div className="flex flex-col gap-[30px] px-[20px]">
         <p className="mobile-section-blue">Roadmap</p>

@@ -1,0 +1,22 @@
+/* li hover 시 텍스트 크기 1.2배, 색상 #fdfdfd, font-weight bold 적용 */
+.li-btn-hover-effect {
+    transition: all 0.2s ease;
+}
+
+.li-btn-hover-effect:hover {
+    transform: scale(1.0.5);
+    color: #d8fbff;
+    font-weight: bold;
+}
+
+.community-hover-effect {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.community-hover-effect:hover {
+    border-color: #66f2b9;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #66f2b9;
+}
