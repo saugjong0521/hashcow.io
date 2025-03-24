@@ -1,6 +1,6 @@
-import Header from './Header';
-import Nav from './Nav';
-import MobileNavModal from './MobileNavModal'
+import Header from './Header/Header.index';
+import Nav from './Nav/Nav.index';
+import MobileNavModal from './MobileNavModal/MobileNavModal.index'
 
 export {
     Header,

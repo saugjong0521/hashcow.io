@@ -1,10 +1,10 @@
-import About from './About'
-import HashcowProject from './HashcowProject'
-import Tokenomics from './Tokenomics'
-import WhitePaper from './WhitePaper'
-import Roadmap from './Roadmap'
-import Community from './Community'
-import ContactUs from './ContactUs'
+import About from './About/About.index';
+import HashcowProject from './HashcowProject/HashcowProject.index';
+import Tokenomics from './Tokenomics/Tokenomics.index';
+import WhitePaper from './WhitePaper/WhitePaper.index';
+import Roadmap from './Roadmap/Roadmap.index';
+import Community from './Community/Community.index';
+import ContactUs from './ContactUs/ContactUs.index';
 
 export {
     About,
