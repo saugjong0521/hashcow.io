@@ -29,7 +29,7 @@ const AboutMobile = () => {
             </div>
             <div className="flex flex-col items-center">
               <p className="mobile-main-gray">Transparent & Fair Randomness,</p>
-              <p className="mobile-main-gray">Empowered by Blockchain Trust.</p>
+              <p className="mobile-main-gray">Empowered by <span className='mobile-main-blue'>Blockchain Trust.</span></p>
             </div>
             <p className="text-black px-[20px] text-center">
               Fairplay, proven by blockchain, the future of gaming RNG, gaming infrastructure transformed with blockchain. Beginning of fair and transparent gaming.
