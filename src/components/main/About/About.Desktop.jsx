@@ -1,4 +1,4 @@
-import { about_symbol_1, about_symbol_2, hashcow_logo } from '@/assets';
+import { about_symbol_1, about_symbol_2, hashcow_logo, about_bg } from '@/assets';
 
 const AboutDesktop = () => {
   return (
