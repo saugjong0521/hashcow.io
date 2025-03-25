@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const ContactUsMobile = () => {
   const [copied, setCopied] = useState(false);
-  const email = 'biz@hashcow.io';
+  const email = 'biz@hash-cow.io';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);

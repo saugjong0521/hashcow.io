@@ -3,7 +3,7 @@ import { hashcow_logo } from '@/assets';
 
 const ContactUsDesktop = () => {
   const [copied, setCopied] = useState(false);
-  const email = 'biz@hashcow.io';
+  const email = 'biz@hash-cow.io';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
