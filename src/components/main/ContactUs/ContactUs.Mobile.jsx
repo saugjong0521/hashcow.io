@@ -25,6 +25,7 @@ const ContactUsMobile = () => {
           <button
             onClick={handleCopy}
             className="text-[#4dd9a2] text-base border border-[#4dd9a2] px-2 py-[2px] rounded transition"
+            data-gtm-id="biz-mail-click"
           >
             {copied ? '✔' : 'Copy'}
           </button>

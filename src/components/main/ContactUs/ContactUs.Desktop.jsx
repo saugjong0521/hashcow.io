@@ -27,6 +27,7 @@ const ContactUsDesktop = () => {
           <button
             onClick={handleCopy}
             className="text-[#4dd9a2] hover:text-white text-lg border border-[#4dd9a2] px-2 py-1 rounded transition"
+            data-gtm-id="biz-mail-click"
           >
             {copied ? 'Copied!' : 'Copy'}
           </button>
