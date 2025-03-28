@@ -14,9 +14,6 @@ export default {
                 'header-bg': "url('/src/assets/header_bg.png')",
                 'about-bg': "url('/src/assets/about_bg.png')",
             },
-            objectPosition: {
-                'hashgames' : '-400px center'
-            },
         },
     },
 };

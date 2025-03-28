@@ -1,4 +1,4 @@
-import { partners } from '@/assets';
+import { partners_1, partners_2 } from '@/assets';
 import { PATH } from '@/constants';
 
 const PartnersMobile = () => {
@@ -11,10 +11,10 @@ const PartnersMobile = () => {
                 <p className="mobile-section-blue">Partners</p>
                 <div className="flex gap-[100px] flex-col justify-center items-center">
                     <a href="#" target='_self'>
-                        <img src={partners} alt="flux" className='w-[225px] h-[150px] object-none cursor-pointer object-left partners-hover-effect' />
+                        <img src={partners_1} alt="flux" className='w-[225px] h-[150px] object-none cursor-pointer object-left partners-hover-effect' />
                     </a>
                     <a href={PATH.HASHGAMES} target='_blank'>
-                        <img src={partners} alt="hashgames" className="w-[300px] h-[150px] object-cover object-hashgames cursor-pointer partners-hover-effect" />
+                        <img src={partners_2} alt="hashgames" className="w-[300px] h-[150px] object-contain object-hashgames cursor-pointer partners-hover-effect" />
                     </a>
                 </div>
             </div>

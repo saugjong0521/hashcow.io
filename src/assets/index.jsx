@@ -7,9 +7,11 @@ import header_bg from './header_bg.png';
 import hashcow_logo from './hashcow_logo.png';
 import roadmap_chart from './roadmap_chart.png';
 import tokenomics_chart from './tokenomics_chart.png'
-import partners from './partners.png'
+import partners_1 from './partners_1.png'
 import community_x from './community_x.png'
 import community_telegram from './community_telegram.png'
+import partners_2 from './partners_2.png'
+import partners from './partners.png'
 
 
 export{
@@ -22,7 +24,9 @@ export{
     whitepaper_logo,
     roadmap_chart,
     tokenomics_chart,
-    partners,
+    partners_1,
     community_x,
     community_telegram,
+    partners_2,
+    partners,
 };
