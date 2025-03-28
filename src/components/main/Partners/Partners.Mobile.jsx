@@ -14,7 +14,7 @@ const PartnersMobile = () => {
                         <img src={partners} alt="flux" className='w-[225px] h-[150px] object-none cursor-pointer object-left partners-hover-effect' />
                     </a>
                     <a href={PATH.HASHGAMES} target='_blank'>
-                        <img src={partners} alt="hashgames" className="w-[443px] h-[150px] object-none object-hashgames cursor-pointer partners-hover-effect" />
+                        <img src={partners} alt="hashgames" className="w-[300px] h-[150px] object-cover object-hashgames cursor-pointer partners-hover-effect" />
                     </a>
                 </div>
             </div>
