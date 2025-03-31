@@ -5,13 +5,28 @@ import { hashcow_logo } from '@/assets';
 const HeaderTablet = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+    const handleComingSoon = () => {
+        return (
+            alert('Public sale will start soon.')
+        )
+    }
+
     return (
         <>
             <div className="flex min-h-[90px] bg-header-bg justify-between items-center px-[50px]">
                 {/* 로고 */}
-                <a href="./" className="flex w-[10vw] h-full">
-                    <img src={hashcow_logo} className="object-contain w-min h-min" />
-                </a>
+                <div className="flex justify-content items-center">
+                    <a href="./" className="flex w-[10vw] h-full mr-[20px]">
+                        <img src={hashcow_logo} className="object-contain w-min h-min" />
+                    </a>
+                    <a href="./" className='flex justify-center items-center bg-transparent' onClick={(e) => { e.preventDefault(); handleComingSoon(); }}>
+                        <button className='bg-transparent'>
+                            <div className="border-[#69e9b6] h-min border-2 rounded-lg p-1">
+                                <p className='text-sm font-bold text-[#69e9b6]'>PUBLIC SALE</p>
+                            </div>
+                        </button>
+                    </a>
+                </div>
 
                 {/* 햄버거 메뉴 */}
                 <div className="flex">
