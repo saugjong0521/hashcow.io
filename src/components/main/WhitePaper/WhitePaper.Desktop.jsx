@@ -10,7 +10,7 @@ const WhitePaperDesktop = () => {
             <div className="flex flex-col gap-[70px] items-center">
                 <p className="text-section-blue">White Paper</p>
                 <img src={whitepaper_logo} alt="White Paper" />
-                <a href={PATH.WHITEPAPER} target='_blank' data-gtm-id="whitepaper-click">
+                <a href={PATH.WHITEPAPER} target='_blank' class="whitepaper-click">
                     <button className="w-[300px] h-[60px] rounded-full bg-[#27c767] whitepaper-hover-effect">
                         <p className="text-main-white">Link</p>
                     </button>
