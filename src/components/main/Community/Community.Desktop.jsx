@@ -30,7 +30,7 @@ const CommunityDesktop = () => {
                         </div>
 
                         <div className="flex">
-                            <a href={PATH.COMM_X} target="_blank" className="x-click">
+                            <a href={PATH.COMM_X} target="_blank">
                                 <img src={community_x} className="community-hover-effect"/>
                             </a>
                         </div>
@@ -53,7 +53,7 @@ const CommunityDesktop = () => {
                         </div>
 
                         <div className="flex">
-                            <a href={PATH.COMM_TELE} target="_blank" className="telegram-click">
+                            <a href={PATH.COMM_TELE} target="_blank">
                                 <img src={community_telegram} className="community-hover-effect"/>
                             </a>
                         </div>

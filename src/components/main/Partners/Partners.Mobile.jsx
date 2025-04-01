@@ -10,10 +10,10 @@ const PartnersMobile = () => {
             <div className="flex flex-col gap-[70px] px-[20px]">
                 <p className="mobile-section-blue">Partners</p>
                 <div className="flex gap-[100px] flex-col justify-center items-center">
-                    <a href={PATH.FLUX} target='_self' className="flux-click">
+                    <a href={PATH.FLUX} target='_self'>
                         <img src={partners_1} alt="flux" className='w-[225px] h-[150px] object-none cursor-pointer object-left partners-hover-effect' />
                     </a>
-                    <a href={PATH.HASHGAMES} target='_blank' className="hashgames-click">
+                    <a href={PATH.HASHGAMES} target='_blank'>
                         <img src={partners_2} alt="hashgames" className="w-[300px] h-[150px] object-contain cursor-pointer partners-hover-effect" />
                     </a>
                 </div>
