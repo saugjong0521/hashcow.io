@@ -10,6 +10,7 @@ import tokenomics_chart from './tokenomics_chart.png'
 import partners_1 from './partners_1.png'
 import community_x from './community_x.png'
 import community_telegram from './community_telegram.png'
+import community_medium from './community_medium.png';
 import partners_2 from './partners_2.png'
 import partners from './partners.png'
 
@@ -27,6 +28,7 @@ export{
     partners_1,
     community_x,
     community_telegram,
+    community_medium,
     partners_2,
     partners,
 };

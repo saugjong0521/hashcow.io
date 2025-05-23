@@ -1,5 +1,5 @@
 import { PATH } from "@/constants";
-import { community_x, community_telegram } from '@/assets';
+import { community_x, community_telegram, community_medium } from '@/assets';
 
 const CommunityTablet = () => {
     return (
@@ -13,7 +13,7 @@ const CommunityTablet = () => {
                     <p className="mobile-section-white2">Community</p>
                 </div>
 
-                <div className="flex flex-wrap justify-center gap-[70px] w-full">
+                <div className="flex flex-wrap justify-center gap-[50px] w-full items-center">
 
                     <div className="flex flex-col gap-[20px]">
                         <div className="flex border-2 border-[#777777] rounded-lg w-[200px] justify-center items-center">
@@ -37,6 +37,18 @@ const CommunityTablet = () => {
                         <div className="flex">
                             <a href={PATH.COMM_TELE} target="_blank">
                                 <img src={community_telegram} className="community-hover-effect w-[200px]" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col gap-[20px]">
+                        <div className="flex border-2 border-[#777777] rounded-lg w-[200px] justify-center items-center">
+                            <p className="tablet-community-gray">Follow Medium</p>
+                        </div>
+
+                        <div className="flex">
+                            <a href={PATH.COMM_MED} target="_blank">
+                                <img src={community_medium} className="community-hover-effect w-[196px]  bg-[#000] border-[3px] border-[#42878D]" />
                             </a>
                         </div>
                     </div>

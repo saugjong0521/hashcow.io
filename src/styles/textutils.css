@@ -27,10 +27,10 @@
         @apply text-[#fdfdfd] text-5xl font-bold;
     }
     .text-community-blue {
-        @apply text-[#0adabb] text-3xl font-bold;
+        @apply text-[#0adabb] text-[28px] font-bold;
     }
     .text-community-white {
-        @apply text-[#fdfdfd] text-3xl font-bold;
+        @apply text-[#fdfdfd] text-[28px] font-bold;
     }
 
 

@@ -1,5 +1,5 @@
 import { PATH } from "@/constants";
-import { community_x, community_telegram } from '@/assets';
+import { community_x, community_telegram, community_medium } from '@/assets';
 
 const CommunityMobile = () => {
     return (
@@ -38,6 +38,20 @@ const CommunityMobile = () => {
                         </div>
                     </div>
                     
+                    <div className="flex flex-col gap-[20px] justify-center items-center">
+                        <div className="flex flex-col border w-[110px] rounded-md border-[#777777]">
+                            <p className="mobile-community-gray">Follow Medium!</p>
+                        </div>
+
+                        <div className="flex">
+                            <a href={PATH.COMM_MED} target="_blank">
+                                <img src={community_medium} className="community-hover-effect w-[98px] bg-[#000] border-[2px] border-[#42878D]"/>
+                            </a>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </section>
